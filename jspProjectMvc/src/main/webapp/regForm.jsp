@@ -25,7 +25,7 @@
 
     <h2>회원가입</h2>
     <hr>
-    <form action="memberReg.jsp" method="post" enctype="multipart/form-data">
+    <form action="memberReg.do" method="post" enctype="multipart/form-data">
         <table>
             <tr>
                 <td>아이디</td>

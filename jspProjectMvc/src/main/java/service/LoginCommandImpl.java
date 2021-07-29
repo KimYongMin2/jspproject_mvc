@@ -59,7 +59,6 @@ public class LoginCommandImpl implements Command {
 		}
 
 		if(loginChk){
-			request.setAttribute("result", new Date());
 			return "/index.do";
 		} else {
 			return "/loginForm.do";

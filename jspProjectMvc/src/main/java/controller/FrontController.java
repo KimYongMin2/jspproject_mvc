@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.commons.fileupload.FileUploadException;
 import service.Command;
 import service.IndexCommandImpl;
 
@@ -85,7 +86,7 @@ public class FrontController extends HttpServlet {
 	
 
 	private void doProcess(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
+			throws ServletException, IOException{
 
 		// 1. 사용자의 요청 분석 : URI를 추출해서 사용
 		String commandUri = request.getRequestURI();

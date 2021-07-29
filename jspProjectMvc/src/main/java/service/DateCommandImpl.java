@@ -12,7 +12,7 @@ public class DateCommandImpl implements Command {
 
 		//.... 핵심처리
 		
-		request.setAttribute("result", new Date());
+		//request.setAttribute("result", new Date());
 		
 		return "/WEB-INF/views/date.jsp";
 	}
