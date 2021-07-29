@@ -4,6 +4,6 @@
 <%@ page trimDirectiveWhitespaces="true"%>
 <%
     String memberId = request.getParameter("mid");
-    request.setAttribute("result", IdCheckService.getInstance().idCheck(memberId));
+    request.setAttribute("resultIdCheck", IdCheckService.getInstance().idCheck(memberId));
 %>
-${result}
+${resultIdCheck}

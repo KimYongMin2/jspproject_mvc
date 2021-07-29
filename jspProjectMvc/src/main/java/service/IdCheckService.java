@@ -13,7 +13,6 @@ public class IdCheckService {
         return service;
     }
     public String idCheck(String memberId){
-        // String result = "N";
         int cnt = 0;
         Connection connection = null;
         MemberDao memberDao = null;

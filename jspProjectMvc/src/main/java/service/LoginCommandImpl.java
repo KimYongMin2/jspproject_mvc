@@ -58,11 +58,12 @@ public class LoginCommandImpl implements Command {
 			response.addCookie(CookieBox.makeCookie("reid", memberId, "/", 0));
 		}
 
-		if(loginChk){
-			return "/index.do";
-		} else {
+
+		if(!loginChk){
 			return "/loginForm.do";
 		}
+
+		return "/index.do";
 		
 	}
 

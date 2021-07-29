@@ -24,7 +24,7 @@ public class MemberListCommandImpl implements Command {
 			conn = ConnectionProvider.getConnection();
 
 			// 6. 결과 데이터 request 의 속성에 저장 -> 데이터 공유(전달)
-			request.setAttribute("result", dao.selectList(conn));
+			request.setAttribute("resultList", dao.selectList(conn));
 
 		} catch (SQLException e){
 			e.printStackTrace();

@@ -3,9 +3,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%
-	//List<Member> list = (List<Member>) request.getAttribute("result");
-%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,19 +45,16 @@
 			<th>관리</th>
 		</tr>
 		
-	<%--
-		if(list!=null && !list.isEmpty()){
-			for(int i=0; i<list.size(); i++){
-				--%>
+
 				
-		<c:if test="${result ne null and not empty result }">	
-		<c:forEach items="${result}" var="member">			
+		<c:if test="${resultList ne null and not empty resultList }">
+		<c:forEach items="${resultList}" var="member">
 		<tr>
-			<td>${member.idx} <%--= list.get(i).getIdx() --%></td>			
-			<td>${member.memberid} <%--= list.get(i).getMemberid() --%></td>
-			<td>${member.password} <%--= list.get(i).getPassword() --%></td>
-			<td>${member.membername} <%--= list.get(i).getMembername() --%></td>
-			<td>${member.regdate} <%--= list.get(i).getRegdate() --%></td>
+			<td>${member.idx}</td>
+			<td>${member.memberid}</td>
+			<td>${member.password}</td>
+			<td>${member.membername}</td>
+			<td>${member.regdate}</td>
 			<td>
 				<a href="#">수정</a> 
 				<a href="#">삭제</a>
@@ -67,28 +62,10 @@
 		</tr>
 		</c:forEach>
 		</c:if>
-				<%--
-			}
-		}
-	--%>
-		
-		
-	</table>
-	<script>
-		
-		function delDept(idx){
-			
-			if(confirm('정말 삭제하시겠습니까?')){
-				//location.href = ''+idx;
-			}
-			
-		}
-	
-	</script>
 
-	<%--
-		out.println(list);
-	--%>
+	</table>
+
+
 
 
 
