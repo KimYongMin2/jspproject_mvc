@@ -11,7 +11,7 @@ public class LogoutCommandImpl implements Command {
 		//.... 핵심처리
 		request.getSession().invalidate();
 
-		return "/index.do";
+		return "/index.jsp";
 	}
 
 }

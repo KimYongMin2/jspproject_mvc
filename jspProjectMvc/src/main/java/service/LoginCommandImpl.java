@@ -60,10 +60,10 @@ public class LoginCommandImpl implements Command {
 
 
 		if(!loginChk){
-			return "/loginForm.do";
+			return "/loginForm.jsp";
 		}
 
-		return "/index.do";
+		return "/index.jsp";
 		
 	}
 
