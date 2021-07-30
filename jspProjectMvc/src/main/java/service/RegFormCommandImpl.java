@@ -8,7 +8,7 @@ public class RegFormCommandImpl implements Command {
 	@Override
 	public String getPage(HttpServletRequest request, HttpServletResponse response) {
 
-		return "/regForm.jsp";
+		return "/WEB-INF/view/regForm.jsp";
 	}
 
 }

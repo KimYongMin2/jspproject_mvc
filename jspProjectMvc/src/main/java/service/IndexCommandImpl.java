@@ -11,7 +11,7 @@ public class IndexCommandImpl implements Command {
 
 		//.... 핵심처리
 		
-		return "/index.jsp";
+		return "/WEB-INF/view/index.jsp";
 	}
 
 }

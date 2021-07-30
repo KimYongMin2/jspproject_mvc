@@ -34,7 +34,7 @@ public class MemberListCommandImpl implements Command {
 			JdbcUtil.close(conn);
 		}
 
-		return "/list_view.jsp";
+		return "/WEB-INF/view/list_view.jsp";
 	}
 
 }

@@ -63,7 +63,7 @@ public class LoginCommandImpl implements Command {
 			return "/loginForm.jsp";
 		}
 
-		return "/index.jsp";
+		return "/WEB-INF/view/index.jsp";
 		
 	}
 

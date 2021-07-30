@@ -20,7 +20,7 @@ public class MemberRegCommandImpl implements Command {
 		}
 		request.setAttribute("resultReg", resultReg);
 		
-		return "/reg_view.jsp";
+		return "/WEB-INF/view/reg_view.jsp";
 	}
 
 }

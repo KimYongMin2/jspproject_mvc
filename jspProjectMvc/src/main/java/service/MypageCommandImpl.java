@@ -17,9 +17,9 @@ public class MypageCommandImpl implements Command {
 //</script>
 //	</c:if>
 		if (request.getSession().getAttribute("loginInfo")==null){
-			return "/loginForm.jsp";
+			return "/WEB-INF/view//loginForm.jsp";
 		}else{
-            return "/mypage.jsp";
+            return "/WEB-INF/view/mypage.jsp";
         }
     }
 
