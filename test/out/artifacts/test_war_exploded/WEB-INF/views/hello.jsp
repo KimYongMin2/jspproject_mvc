@@ -8,8 +8,6 @@
 </head>
 <body>
 	<h1>${greeting}</h1>
-<p>
-	${serverTime}
-</p>
+
 </body>
 </html>
