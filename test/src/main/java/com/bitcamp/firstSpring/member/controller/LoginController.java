@@ -1,4 +1,4 @@
-package com.bitcamp.firstSpring.member.contoller;
+package com.bitcamp.firstSpring.member.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,7 +8,7 @@ public class LoginController {
 
 	@RequestMapping("/member/loginform")
 	public String getLoginForm() {
-		return "member/loginForm"; //  /WEB-INF/views/member/loginForm.jsp
+		return "member/loginForm"; //  /WEB-INF/views/com.bitcamp.firstSpring.member/loginForm.jsp
 	}
 	
 }

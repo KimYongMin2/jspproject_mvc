@@ -9,7 +9,7 @@ import oldmember.domain.Member;
 public class ChangePasswordService2 {
 	
 	@Autowired
-	@Qualifier("member")
+	@Qualifier("com.bitcamp.firstSpring.member")
 	private Dao dao;
 	
 	public void changePassword(String email, String oldPw, String newPw) throws Exception {

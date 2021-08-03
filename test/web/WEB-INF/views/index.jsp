@@ -13,8 +13,8 @@
 	<hr>
 	<ul>
 		<li><a href="<c:url value="/hello"/>">/hello</a></li>
-		<li><a href="<c:url value="/member/loginform"/>">/member/loginform</a></li>
-		<li><a href="<c:url value="/member/regform"/>">/member/regform</a></li>
+		<li><a href="<c:url value="/member/loginform"/>">/com.bitcamp.firstSpring.member/loginform</a></li>
+		<li><a href="<c:url value="/member/regform"/>">/com.bitcamp.firstSpring.member/regform</a></li>
 	</ul>
 
 </body>

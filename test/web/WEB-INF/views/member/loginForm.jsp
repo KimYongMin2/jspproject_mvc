@@ -14,8 +14,8 @@
 <body>
 
 	<h1>LoginForm</h1>
-	<hr>                   <!-- /web/member/login.jsp -->
-	<form action="<c:url value="/member/login.jsp"/>">  <!-- /web/member/mypage/mypage.jsp -->
+	<hr>                   <!-- /web/com.bitcamp.firstSpring.member/login.jsp -->
+	<form action="<c:url value="/member/login.jsp"/>">  <!-- /web/com.bitcamp.firstSpring.member/mypage/mypage.jsp -->
 		<table>
 			<tr>
 				<td>아이디</td>

@@ -31,6 +31,7 @@ public class HelloController {
 			str = "점심 식사는 하셨나요?";
 		} else if(hour>=18 && hour<=22) {
 			System.out.println("좋은 밤 되세요.");
+			str = "좋은 밤 되세요";
 		}
 		
 		return str;
