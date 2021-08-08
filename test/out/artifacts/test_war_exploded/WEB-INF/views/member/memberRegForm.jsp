@@ -15,7 +15,8 @@
 
 	<h1>회원가입</h1>
 	<hr>                   
-	<form action="memberReg.jsp" method="post" enctype="multipart/form-data"> 
+	<!-- <form method="post" enctype="multipart/form-data"> -->
+	<form method="post" > 
 			<table>
 				<tr>
 					<td>아이디</td>
